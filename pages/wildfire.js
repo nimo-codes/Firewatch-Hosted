@@ -56,7 +56,7 @@ const wildfire = () => {
   const callLatOutput = async (e) => {
     e.preventDefault();
     setDrop({
-      message: "Fire Detected",
+      message: "No Fire Detected",
       name: "Sample",
       img: "/assets/sample.jpg",
     });
